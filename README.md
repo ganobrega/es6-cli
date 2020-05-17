@@ -1,6 +1,6 @@
 # ES6-CLI
 
-Este repositória é um experimento de fabricação de CLI's pré-compiladas utilizando-se o ES6 e dando suporte a versões mais baixas do **Node**.
+Este repositório é um experimento de fabricação de CLI's pré-compiladas utilizando-se o ES6 e dando suporte a versões mais baixas do **Node**.
 
 > No momento estou utilizando o `sucrase`, pois não estava conseguindo fazer o mesmo com o `babel`. Mas futuramente farei o experimento com o `babel`
 

@@ -1,0 +1,24 @@
+{
+  "name": "es6-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ganobrega/es6-cli.git",
+  "author": "Gabriel Nobrega <gnobrega.contato@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "es6-cli": "./bin/run.js"
+  },
+  "scripts": {
+    "build": "sucrase src/ -d dist/ --transforms imports",
+    "test": "benchmark ./test/*.spec.js"
+  },
+  "devDependencies": {
+    "benchmark-cli": "^1.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "sucrase": "^3.14.0"
+  },
+  "dependencies": {
+    "meow": "^7.0.1"
+  }
+}

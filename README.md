@@ -22,6 +22,9 @@ $ benchmark ./test/*.spec.js
 
 ## Versões Suportadas
 
+- :white_check_mark: 14.x
+- :white_check_mark: 13.x
+- :white_check_mark: 12.x
 - :white_check_mark: 11.x
 - :white_check_mark: 10.x
 - :white_check_mark: 9.x

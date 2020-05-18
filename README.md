@@ -1,9 +1,7 @@
 # ES6-CLI
 
 Este repositório é um experimento de fabricação de CLI's pré-compiladas utilizando-se o ES6 e dando suporte a versões mais baixas do **Node**.
-
-> No momento estou utilizando o `sucrase`, pois não estava conseguindo fazer o mesmo com o `babel`. Mas futuramente farei o experimento com o `babel`
-
+> 
 ## Motivações
 
 1. Em uma CLI mais complexa, algumas *features* são necessárias como o `optional-chaining` que não é suportado em versões `<= 13.x` do **Node**.
@@ -28,7 +26,6 @@ $ benchmark ./test/*.spec.js
 - :white_check_mark: 10.x
 - :white_check_mark: 9.x
 - :white_check_mark: 8.x
-- :white_check_mark: 8.x
 - :x: <= 7.x
 
 ## Issues
@@ -36,4 +33,4 @@ $ benchmark ./test/*.spec.js
 ### <= v7.x
 
 - Unexpected token ... (Spread operator)
-  - Talvez essa *issue* possa ser corrigida utilizando o `babel` e o plugin `@babel/plugin-proposal-optional-chaining`
+  - Não foi possível ajustar o problema, já que o erro está vindo do pacote `meow`, que não suporta versões mais baixas que a **v8** do **node**

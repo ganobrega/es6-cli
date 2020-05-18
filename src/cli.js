@@ -17,12 +17,16 @@ const cli = meow(`
         rainbow: {
             type: 'boolean',
             alias: 'r'
+        },
+        help: {
+          type: 'boolean',
+          alias: 'h'
         }
-    }
+    },
 });
 
-if(cli.flags.help){
+if(cli.flags.h){
     console.log(meow.showHelp())
 }
 
-console.log(cli.flags, cli.input)
+console.log(cli.flags?.version);

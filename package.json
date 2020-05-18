@@ -12,6 +12,9 @@
     "build": "sucrase src/ -d dist/ --transforms imports",
     "test": "benchmark ./test/*.spec.js"
   },
+  "engines": {
+    "node": ">=8.17.0"
+  },
   "devDependencies": {
     "benchmark-cli": "^1.1.0",
     "chai": "^4.2.0",
